@@ -1,0 +1,14 @@
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\bin\Debug\netcoreapp2.1\HomeTestShofiul.deps.json
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\bin\Debug\netcoreapp2.1\HomeTestShofiul.runtimeconfig.json
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\bin\Debug\netcoreapp2.1\HomeTestShofiul.runtimeconfig.dev.json
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\bin\Debug\netcoreapp2.1\HomeTestShofiul.dll
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\bin\Debug\netcoreapp2.1\HomeTestShofiul.pdb
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.csprojAssemblyReference.cache
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.csproj.CoreCompileInputs.cache
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.RazorAssemblyInfo.cache
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.RazorAssemblyInfo.cs
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.AssemblyInfoInputs.cache
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.AssemblyInfo.cs
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.RazorTargetAssemblyInfo.cache
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.dll
+C:\Users\mrsho\source\repos\HomeTestShofiul\HomeTestShofiul\obj\Debug\netcoreapp2.1\HomeTestShofiul.pdb

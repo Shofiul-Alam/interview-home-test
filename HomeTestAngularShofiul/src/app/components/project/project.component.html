@@ -1,0 +1,46 @@
+<main role="main" class="container">
+  <div class="jumbotron">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Project List</h2>
+              <a [routerLink]="['/projects/add']" role="button" class="btn btn-success right">Add Project</a>
+          </div>
+        </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 mx-auto mt-5">
+      <table mdbTable class="z-depth-1 table-responsive-sm" striped="true" hover="true" >
+        <thead>
+          <tr>
+            <th *ngFor="let head of headElements; let i = index" scope="col">{{head}}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr mdbTableCol *ngFor="let el of elements; let i = index">
+            <th *ngIf="i+1 >= firstItemIndex && i < lastItemIndex" scope="row" class="text-center">{{el.Id}}</th>
+            <td *ngIf="i+1 >= firstItemIndex && i < lastItemIndex">{{el.Name}}</td>
+            <td *ngIf="i+1 >= firstItemIndex && i < lastItemIndex">{{el.Phone}}</td>
+            <td *ngIf="i+1 >= firstItemIndex && i < lastItemIndex">{{el.Address}}</td>
+            <td *ngIf="i+1 >= firstItemIndex && i < lastItemIndex">
+              <a [routerLink]="['/projects/edit/'+el.Id]" role="button" class="btn btn-success">Edit</a>
+              <button role="button" class="btn btn-danger" (click)="deleteProject(el.Id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot class="grey lighten-5 w-100">
+      
+          <tr>
+            <td colspan="5">
+              <mdb-table-pagination (nextPageClick)="onNextPageClick($event)" (previousPageClick)="onPreviousPageClick($event)">
+              </mdb-table-pagination>
+            </td>
+          </tr>
+      
+        </tfoot>
+      </table>
+    </div>
+  </div>
+  
+  
+</main>

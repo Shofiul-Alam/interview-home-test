@@ -1,0 +1,107 @@
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Contact Manamgnet</h2>
+                <a [routerLink]="['/projects']" role="button" class="btn btn-success right">Project List</a>
+            </div>
+          </div>
+        <div class="clearfix"></div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-4 project-contact" *ngFor="let project of projects; let i = index ">
+                <div class="list-group project-contact-box">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1 project-contact-h5">{{project.projectName}}</h5>
+                        <button mdbBtn color="default" rounded="true" data-toggle="modal" data-target="#basicExample"
+                          (click)=" editContact($event, project); frame.show()" mdbWavesEffect size="sm"><i class="fas fa-user-plus"></i></button>
+                      </div>
+                      <small>{{project.address}}</small>
+                    </a>
+                    <div class="list-group-item list-group-item-action flex-column align-items-start"
+                    *ngFor="let contact of project.contacts; let j = index">
+                      <div class="d-flex w-100 justify-content-between">
+                        <p class="mb-1">{{contact.name}}</p>
+                        <small class="text-muted">
+                          <button type="button" (click)="deleteContact($event, contact.id, project.id)">
+                            <i class="fas fa-backspace"></i></button>
+                          </small>
+                      </div>
+                    </div>
+                  </div>
+                  <div *ngIf="i%3 == 0" class="clearfix"></div>
+            </div>
+        </div>
+      </div>
+      
+      
+      <div mdbModal #frame="mdbModal" class="modal fade bottom" id="frameModalTop" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" id="contact-project-modal-container">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold">{{project.projectName}} New Contact</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide(); clearContacts()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+      
+            <div class="row row-divided">
+                <div class="col-md-6">
+                    <form [formGroup]="contactForm" (ngSubmit)="addContactToProject(); frame.hide()" novalidate>
+                        <div class="modal-body mx-3">
+                            <div class="md-form mb-5">
+                              <i class="fas fa-user prefix grey-text"></i>
+                              <input type="text" id="contact-name" class="form-control validate" formControlName="name"
+                                mdbInputDirective required>
+                              <label data-error="wrong" data-success="right" for="orangeForm-name">Name</label>
+                            </div>
+                            <div class="md-form mb-5">
+                              <i class="fas fa-envelope prefix grey-text"></i>
+                              <input type="text" id="contact-address" class="form-control validate" formControlName="address"
+                                mdbInputDirective required>
+                              <label data-error="wrong" data-success="right" for="orangeForm-email">Address</label>
+                            </div>
+                    
+                            <div class="md-form mb-4">
+                              <i class="fas fa-lock prefix grey-text"></i>
+                              <textarea type="text" id="contact-details" class="form-control validate" formControlName="details"
+                                mdbInputDirective></textarea>
+                            </div>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                              <button mdbBtn color="deep-orange" class="waves-light" mdbWavesEffect>Sign up</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="vertical-divider">or</div>
+                <div *ngIf="showMeModal==true" class="col-md-6">
+                    <form class="text-center p-5" id="add-contact-exist" (ngSubmit)="addExistingContact(); frame.hide()">
+                        <!--Multi Select-->
+      
+                         <div class="form-group" id="sh-multiselect">
+                             <select2  [data]="contacts"
+                                       [options]="options"
+                                       [value]="selectedContacts"
+                                       (valueChanged) = "reInit($event)"
+                                     
+                                       >
+                             </select2>
+                             <i class="fa fa-chevron-down"></i>
+                         </div>
+                 
+                         <button mdbBtn class="btn btn-info btn-block" >Add From Exisitng</button>
+                       </form>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+
+
+

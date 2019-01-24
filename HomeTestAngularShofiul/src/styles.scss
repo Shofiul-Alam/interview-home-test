@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+.jumbotron h2{
+    
+    float: left;
+    line-height: 1.7em;
+    padding-right: 15px;
+
+}
+#sh-multiselect span.select2 {
+    width: 100%!important;
+}
+#sh-multiselect li.select2-search{
+    padding-left: 7px;
+}
+#sh-multiselect i.fa-chevron-down{
+    position: absolute;
+    left: 85%;
+    padding-top: 11px;
+    color: #777;
+}
+.invalid-feedback {
+    float: left;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+form#createProject input {
+    margin-bottom: 0px!important;
+}
+.error-msg {
+    margin-bottom: 10px;
+}
+table.table td {
+    line-height: 4em;
+}
+
+.project-contact {
+    min-height: 200px;
+    padding-bottom: 15px;
+}
+
+.project-contact-box {
+    height: 100%;
+    border: 1px solid #9999;
+    border-radius: 4px;
+}
+.project-contact-h5{
+    line-height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    padding : 10px ;
+    
+  }
+  
+  #exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  #exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  /* remove border radius for the tab */
+  
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+  
+  /* change border radius for the tab , apply corners on top*/
+  
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+  
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+@media  (min-width: 576px) {
+    #contact-project-modal-container {
+        max-width: 70% !important;
+        margin-left: 15%;
+    }  
+}
+
+#add-contact-exist {
+    padding: 3rem 1rem!important;
+}
+
+#contact-project-modal-container #sh-multiselect i.fa-chevron-down {
+    left: 80%!important;
+}
+
+
+
+
+
+.vertical-divider {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 50%;
+    line-height: 0;
+    text-align:center;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+  }
+  
+  .vertical-divider:before, 
+  .vertical-divider:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    z-index: 9;
+    border-left: 1px solid rgba(34,36,38,.15);
+    border-right: 1px solid rgba(255,255,255,.1);
+    width: 0;
+    height: calc(100% - 1rem);
+  }
+  
+  .row-divided > .vertical-divider {
+    height: calc(50% - 1rem);    
+  }
+  
+  .vertical-divider:before {
+    top: -100%;
+  }
+  
+  .vertical-divider:after {
+    top: auto;
+    bottom: 0;
+  }
+  
+  .row-divided {
+    position:relative;
+  }
+  
+  .row-divided > [class^="col-"],
+  .row-divided > [class*=" col-"] {
+    padding-left: 30px;  /* gutter width (give a little extra room) 2x default */
+    padding-right: 30px; /* gutter width (give a little extra room) 2x default */
+  }
+  
+  
+  
+  
+  

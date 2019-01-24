@@ -1,0 +1,64 @@
+<!-- Default form contact -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+          <form class="text-center border border-light p-5" id="createProject" #createProject="ngForm" (ngSubmit)="updateProject(createProject)">
+  
+              <h2 class="mb-4">Edit Project</h2>
+              <div class="form-group">
+                  <input type="text" id="project-name" class="form-control mb-4" placeholder="Project Name"
+                    name="projectName" #projectName="ngModel" [(ngModel)]="project.projectName" 
+                    [ngClass]="{ 'is-invalid': createProject.submitted && projectName.invalid }" required />
+  
+                    <div *ngIf="createProject.submitted && projectName.invalid" class="invalid-feedback">
+                        <div class="error-msg" *ngIf="projectName.errors.required">Project name is required</div>
+                    </div>
+              </div>
+              
+              <div class="form-group">
+                  <input type="text" id="project-address" class="form-control mb-4" placeholder="Project Address"
+                      name="projectAddress" #projectAddress="ngModel" [(ngModel)]="project.address"
+                      [ngClass]="{ 'is-invalid': createProject.submitted && projectAddress.invalid }" required />
+  
+                    <div *ngIf="createProject.submitted && projectAddress.invalid" class="invalid-feedback">
+                        <div class="error-msg" *ngIf="projectAddress.errors.required">Project Address is required</div>
+                    </div>
+              </div>
+             <div class="form-group">
+                <input type="text" id="phone" class="form-control mb-4" placeholder="Phone No"
+                      name="projectPhone" #projectPhone="ngModel" [(ngModel)]="project.phone" 
+                      [ngClass]="{ 'is-invalid': createProject.submitted && projectPhone.invalid }" required />
+  
+                    <div *ngIf="createProject.submitted && projectPhone.invalid" class="invalid-feedback">
+                        <div class="error-msg" *ngIf="projectPhone.errors.required">Phone no is required for the project</div>
+                    </div>
+             </div>
+              <!--Multi Select-->
+              <div class="form-group" id="sh-multiselect">
+                  <select2  [data]="contacts"
+                            [options]="options"
+                            [value]="selectedContacts"
+                            (valueChanged)="addContactToProject($event)"
+                            >
+                  </select2>
+                  <i class="fa fa-chevron-down"></i>
+                  
+              </div>
+              
+            
+              <!-- Message -->
+              <div class="form-group">
+                <textarea class="form-control rounded-0" id="project-details" rows="3" placeholder="Project Details"
+                    name="projectDetails" #projectDetails="ngModel" [(ngModel)]="project.projectDetails"></textarea>
+              </div>
+              <!-- Send button -->
+              <button class="btn btn-info btn-block" type="submit">Update Project</button>
+            
+          </form>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+  
+    <!-- Default form contact -->

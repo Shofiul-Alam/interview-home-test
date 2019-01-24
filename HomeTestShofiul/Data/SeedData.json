@@ -1,0 +1,107 @@
+[
+  {
+    "ProjectName": "KIGGLE",
+    "Phone": "+61 (986) 583-3213",
+    "Address": "617 Furman Street, Odessa, New Hampshire, 2245",
+    "Contacts": [
+      {
+        "Contact": {
+          "Name": "Tricia Mccarthy",
+          "Details": "Non aliquip velit amet sit pariatur culpa ut exercitation. Ipsum laborum aliquip deserunt proident ipsum duis nulla eiusmod ipsum mollit aute nostrud ad tempor. Esse excepteur laborum minim qui elit dolor magna. Incididunt excepteur fugiat aliquip reprehenderit enim minim amet Lorem.\r\n",
+          "address": "416 Dumont Avenue, Hinsdale, Vermont, 5775"
+        }
+      },
+      {
+        "Contact": {
+          "Name": "Anna Moore",
+          "Details": "Qui qui enim commodo minim aute aute officia in ea enim magna nisi commodo eu. Magna id cillum dolore nostrud est non non velit cupidatat adipisicing. Minim aliqua anim laborum dolor do in labore ad nisi laborum irure irure.\r\n",
+          "address": "679 Trucklemans Lane, Benson, Maryland, 6956"
+        }
+      }
+    ]
+  },
+  {
+    "ProjectName": "PYRAMI",
+    "Phone": "+61 (986) 481-2694",
+    "Address": "635 Minna Street, Norvelt, Guam, 6195",
+    "Contacts": [
+      {
+        "Contact": {
+          "Name": "Sophie Wilkinson",
+          "Details": "Enim duis et ad exercitation incididunt nulla excepteur qui elit velit ut excepteur ut sit. Reprehenderit ut reprehenderit consequat elit elit. Ut Lorem voluptate sit laboris. Do reprehenderit do velit magna do magna. In esse nostrud culpa nulla commodo velit commodo do.\r\n",
+          "address": "287 Willow Place, Winston, Mississippi, 3006"
+        }
+      },
+      {
+        "Contact": {
+          "Name": "Blackwell Young",
+          "Details": "Mollit incididunt cupidatat adipisicing laborum amet voluptate id ad magna ullamco ex voluptate eu sint. In proident cillum aliqua nulla veniam sunt nulla pariatur dolore. Enim do excepteur est tempor deserunt. Veniam fugiat labore amet id ex non est laborum laborum amet proident do exercitation. Anim ullamco dolore eiusmod esse cupidatat elit mollit quis. Ea in nisi fugiat ea quis sit est labore enim occaecat quis aliquip reprehenderit. Commodo aliquip irure et velit officia esse.\r\n",
+          "address": "383 Bushwick Place, Saranap, Texas, 2102"
+        }
+      }
+    ]
+  },
+  {
+    "ProjectName": "MARVANE",
+    "Phone": "+61 (888) 578-2940",
+    "Address": "271 Aster Court, Goochland, Georgia, 1708",
+    "Contacts": [
+      {
+        "Contact": {
+          "Name": "Earnestine Rowland",
+          "Details": "Do ipsum ullamco eu laboris Lorem quis incididunt excepteur. Dolor quis incididunt esse amet nostrud. Veniam amet proident nulla aute deserunt laboris aliquip. Anim occaecat deserunt labore cupidatat quis eiusmod eiusmod anim consequat amet irure proident. Excepteur fugiat eiusmod officia sit est tempor.\r\n",
+          "address": "181 Summit Street, Klondike, Wisconsin, 8736"
+        }
+      },
+      {
+        "Contact": {
+          "Name": "Dianna Valenzuela",
+          "Details": "Ipsum adipisicing ut aliquip in reprehenderit labore elit occaecat tempor laborum adipisicing eiusmod occaecat laboris. In Lorem sunt sunt aute voluptate irure enim. Et reprehenderit nisi aute ea Lorem consequat tempor. Veniam deserunt qui minim adipisicing sint velit consequat eu consectetur pariatur elit cillum ad. Ut commodo non irure laboris eu elit.\r\n",
+          "address": "868 Tompkins Avenue, Kimmell, Oklahoma, 6699"
+        }
+      }
+    ]
+  },
+  {
+    "ProjectName": "VETRON",
+    "Phone": "+61 (806) 548-3920",
+    "Address": "387 Sharon Street, Westwood, Connecticut, 9484",
+    "Contacts": [
+      {
+        "Contact": {
+          "Name": "Haley Gonzalez",
+          "Details": "Magna sint adipisicing minim in consectetur incididunt cillum. Minim cillum officia sit elit sint tempor ex quis occaecat commodo esse officia cupidatat pariatur. Anim magna cillum irure ut proident exercitation. Ipsum sit quis consectetur eiusmod.\r\n",
+          "address": "496 Cropsey Avenue, Motley, American Samoa, 2335"
+        }
+      },
+      {
+        "Contact": {
+          "Name": "Santos Brewer",
+          "Details": "In sit esse exercitation cillum reprehenderit ipsum eiusmod excepteur magna. Incididunt aliqua fugiat duis ullamco non quis. Deserunt qui laborum quis tempor. Sit veniam cupidatat magna velit elit est ad est consectetur id id. Sunt deserunt id dolor do deserunt ea sunt velit. Reprehenderit ea ullamco ad laborum adipisicing consequat adipisicing magna sit ea do.\r\n",
+          "address": "623 Lancaster Avenue, Basye, Virgin Islands, 448"
+        }
+      }
+    ]
+  },
+  {
+    "ProjectName": "WARETEL",
+    "Phone": "+61 (994) 489-2681",
+    "Address": "528 Pineapple Street, Smock, Iowa, 8713",
+    "Contacts": [
+      {
+        "Contact": {
+          "Name": "Guadalupe Bradford",
+          "Details": "Et enim reprehenderit in nostrud ex dolore aute ad tempor ea. Aliqua qui consequat aliqua aliquip. Consequat adipisicing commodo cupidatat sunt. Reprehenderit excepteur sint pariatur proident. Duis veniam culpa officia consectetur ipsum elit ea deserunt pariatur minim sunt ipsum.\r\n",
+          "address": "456 Vanderveer Street, Chical, Nevada, 9890"
+        }
+      },
+      {
+        "Contact": {
+          "Name": "Ladonna Hendricks",
+          "Details": "Esse ea adipisicing proident exercitation anim amet quis ea. Nulla consequat quis Lorem sint culpa officia velit exercitation aliqua laboris aute. Cupidatat magna cillum eiusmod nisi. Enim ipsum qui aute amet.\r\n",
+          "address": "537 Seba Avenue, Crenshaw, Delaware, 8581"
+        }
+      }
+    ]
+  }
+]
