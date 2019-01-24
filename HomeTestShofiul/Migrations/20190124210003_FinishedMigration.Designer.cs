@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HomeTestShofiul.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20190124095246_AzureMigration")]
-    partial class AzureMigration
+    [Migration("20190124210003_FinishedMigration")]
+    partial class FinishedMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

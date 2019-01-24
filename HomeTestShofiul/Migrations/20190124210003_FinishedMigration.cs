@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HomeTestShofiul.Migrations
 {
-    public partial class AzureMigration : Migration
+    public partial class FinishedMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -7,14 +7,20 @@ namespace UnitTest
     public class ProjectTest
     {
         [SetUp]
-        public void Setup()
+        public void CreateProject()
         {
         }
 
         [Test]
-        public void Test1()
+        public void UpdateProject()
         {
             
+            Assert.That("", Is.True);
+        }
+        [Test]
+        public void DeleteProject()
+        {
+
             Assert.That("", Is.True);
         }
     }
