@@ -7,12 +7,14 @@ import { FooterComponent } from './global-components/footer/footer.component';
 import {ComponentsRoutingModule} from './components-routing.module';
 import {SIDEBAR_TOGGLE_DIRECTIVES} from './global-components/sidebar.directive';
 import {NAV_DROPDOWN_DIRECTIVES} from './global-components/nav-dropdown.directive';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
 @NgModule({
   imports: [
     CommonModule,
     ComponentsRoutingModule,
+    MDBBootstrapModule
   ],
   declarations: [
       ComponentsComponent,

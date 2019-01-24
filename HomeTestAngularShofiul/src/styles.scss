@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+#mobile-nav{
+    display:none;
+}
+
+@media(min-width: 720px) {
+    #mobile-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 719px) {
+    #desktop-nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: block;
+    }
+}
+
 .jumbotron h2{
     
     float: left;
@@ -33,8 +52,10 @@ form#createProject input {
 .error-msg {
     margin-bottom: 10px;
 }
-table.table td {
-    line-height: 4em;
+table.sh-data-table a.btn, table.sh-data-table button.btn {
+    padding: 7px;
+    font-size: 10px;
+    display: inline;
 }
 
 .project-contact {
@@ -164,6 +185,33 @@ body {
     padding-right: 30px; /* gutter width (give a little extra room) 2x default */
   }
   
+  @media (max-width: 576px) {
+    .vertical-divider:before, .vertical-divider:after {
+        width: 186px;
+    }
+    .vertical-divider:before {
+        top: -94%;
+        border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+        left: 163%;
+        border-left: none;
+        border-right: none;
+    }
+    .vertical-divider:after {
+        top: 0;
+        bottom: 0;
+        border-top: 1px solid rgba(34, 36, 38, 0.15);
+        border-left: none;
+        border-right: none;
+        left: -200px;
+    }
+
+    .vertical-divider {
+        top: 67%;
+        left: 50%;
+    }
+
+
+  }
   
   
   
